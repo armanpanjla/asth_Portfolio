@@ -1,10 +1,10 @@
-const Homepage = () =>{
+const HeroSection = () =>{
 
     return (
         <div className="flex justify-center  border p-32 mb-9">
-            Homepage
+            hero
         </div>
     )
 }
 
-export default Homepage;
+export default HeroSection;
