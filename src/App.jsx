@@ -1,24 +1,13 @@
-import Navbar from './components/layout/navbar.jsx'
-import Sidebar from './components/layout/sidebar.jsx';
-import ContactForm from './pages/ContactForm.jsx';
-import HeroSection from './pages/HeroSection.jsx';
-import ProjectSection from './pages/Projects.jsx';
-import TechStack from './pages/TechStack.jsx';
+import { Routes , Route } from "react-router-dom";
+import  Home from "./pages/HomePage"
+import ProjectPage from "./pages/ProjectPage";
 
-const app = () => {
-
-
-    return (
-        <div className='bg-grid text-white '>
-            <Navbar/>
-            <Sidebar/>
-            <HeroSection/>
-            <TechStack/>
-            <ProjectSection/>
-            <ContactForm/>
-        </div>
+const app =()=>{
+    return(
+        <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/projects" element={<ProjectPage/>}/>
+        </Routes>
     )
 }
-
-
 export default app;

@@ -14,5 +14,8 @@
     18px 18px,
     18px 18px;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 
 @import "tailwindcss"

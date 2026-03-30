@@ -1,5 +1,5 @@
-import SkillStash from "../components/ui/SkillStash";
-import {skills} from "../data/skills";
+import SkillStash from "../ui/SkillStash";
+import {skills} from "../../data/skills";
 
 const TechStack = () => {
     return (

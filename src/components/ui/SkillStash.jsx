@@ -1,16 +1,17 @@
 const SkillStash = ({ Skills }) => {
     return (
         <section>
-            <div className="grid grid-cols-4 gap-8">
+            <div className="grid grid-cols-2  gap-8 sm:grid-cols-3 lg:grid-cols-4 sm:gap-6 ">
                 {Skills.map((skill, index) => (
                     <div
                         key={index}
                         className="flex items-center gap-3 bg-[#1d1d1d] p-3 rounded-lg hover:scale-105 transition"
                     >
                         <img
-                            className="w-8 h-8 rounded"
+                            className="w-8 h-8 select-none rounded"
                             src={skill.logo}
                             alt={skill.name}
+                            draggable="false"
                         />
 
                         <div className="text-xs text-gray-300">
