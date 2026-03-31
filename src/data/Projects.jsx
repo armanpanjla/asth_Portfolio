@@ -3,7 +3,8 @@ export const Projects =[
     {
             name: "TaskVive",
             subhead: "A lightning-fast task management application built with the MERN stack.",
-            img: img1 // Put your image in the public folder
+            img: img1 ,
+            techlist:["React","Mongodb","Express.js"]
         },
         {
             name: "Anime Tracker",

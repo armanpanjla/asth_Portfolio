@@ -11,10 +11,10 @@ const Home = () => {
 
 
     return (
-        <div className='bg-grid sm:w-full  text-white '>
+        <div className='bg-grid   border border-[#292c3d] sm:w-full  text-white '>
             <Navbar/>
-            <Sidebar/>
-            <Container><HeroSection/></Container>
+            {/* <Sidebar/> */}
+            <Container ><HeroSection/  ></Container>
             <Container><Aboutme/></Container>
             <Container><TechStack/></Container>
             <Container><ProjectSection/></Container>
